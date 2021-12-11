@@ -22,7 +22,7 @@ def url_markup(videoid, duration, user_id, query, query_type):
         ],
         [
             InlineKeyboardButton(
-                text="𝗠𝗼𝗿𝗲",
+                text="𝗠𝗼𝗿𝗲 𝗥𝗲𝘀𝘂𝗹𝘁",
                 callback_data=f"Search {query}|{user_id}",
             ),
             InlineKeyboardButton(
@@ -163,7 +163,7 @@ def secondary_markup(videoid, user_id):
         ],
         [
             InlineKeyboardButton(
-                text="𝗠𝗼𝗿𝗲", callback_data=f"other {videoid}|{user_id}"
+                text="𝗠𝗼𝗿𝗲 𝗠𝗲𝗻𝘂", callback_data=f"other {videoid}|{user_id}"
             ),
             InlineKeyboardButton(text="𝗖𝗹𝗼𝘀𝗲", callback_data=f"close"),
         ],
@@ -190,7 +190,7 @@ def primary_markup(videoid, user_id, current_time, total_time):
         ],
         [
             InlineKeyboardButton(
-                text="𝗠𝗼𝗿𝗲", callback_data=f"other {videoid}|{user_id}"
+                text="𝗠𝗼𝗿𝗲 𝗠𝗲𝗻𝘂", callback_data=f"other {videoid}|{user_id}"
             ),
             InlineKeyboardButton(text="𝗖𝗹𝗼𝘀𝗲", callback_data=f"close"),
         ],
@@ -214,7 +214,7 @@ def timer_markup(videoid, user_id, current_time, total_time):
         ],
         [
             InlineKeyboardButton(
-                text="𝗠𝗼𝗿𝗲", callback_data=f"other {videoid}|{user_id}"
+                text="𝗠𝗼𝗿𝗲 𝗠𝗲𝗻𝘂", callback_data=f"other {videoid}|{user_id}"
             ),
             InlineKeyboardButton(text="𝗖𝗹𝗼𝘀𝗲", callback_data=f"close"),
         ],
