@@ -10,12 +10,12 @@ def start_pannel():
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="🗂 Helper Commands Menu", callback_data="shikhar"
+                    text="🗂 𝗛𝗲𝗹𝗽𝗲𝗿 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀 𝗠𝗲𝗻𝘂", callback_data="shikhar"
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text="🔧 Settings", callback_data="settingm"
+                    text="🔧 𝗦𝗲𝘁𝘁𝗶𝗻𝗴𝘀", callback_data="settingm"
                 )
             ],
         ]
@@ -24,17 +24,17 @@ def start_pannel():
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="🗂 Helper Commands Menu", callback_data="shikhar"
+                    text="🗂 𝗛𝗲𝗹𝗽𝗲𝗿 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀 𝗠𝗲𝗻𝘂", callback_data="shikhar"
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text="🔧 Settings", callback_data="settingm"
+                    text="🔧 𝗦𝗲𝘁𝘁𝗶𝗻𝗴𝘀", callback_data="settingm"
                 )
             ],
             [
                 InlineKeyboardButton(
-                    text="📨Support Group", url=f"{SUPPORT_GROUP}"
+                    text="📨𝗦𝘂𝗽𝗽𝗼𝗿𝘁", url=f"{SUPPORT_GROUP}"
                 ),
             ],
         ]
@@ -43,17 +43,17 @@ def start_pannel():
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="🗂 Helper Commands Menu", callback_data="shikhar"
+                    text="🗂 𝗛𝗲𝗹𝗽𝗲𝗿 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀 𝗠𝗲𝗻𝘂", callback_data="shikhar"
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text="🔧 Settings", callback_data="settingm"
+                    text="🔧 𝗦𝗲𝘁𝘁𝗶𝗻𝗴𝘀", callback_data="settingm"
                 )
             ],
             [
                 InlineKeyboardButton(
-                    text="📨Official Channel", url=f"{SUPPORT_CHANNEL}"
+                    text="📨𝗖𝗵𝗮𝗻𝗻𝗲𝗹", url=f"{SUPPORT_CHANNEL}"
                 ),
             ],
         ]
@@ -62,20 +62,20 @@ def start_pannel():
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="🗂 Helper Commands Menu", callback_data="shikhar"
+                    text="🗂 𝗛𝗲𝗹𝗽𝗲𝗿 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀 𝗠𝗲𝗻𝘂", callback_data="shikhar"
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text="🔧 Settings", callback_data="settingm"
+                    text="🔧 𝗦𝗲𝘁𝘁𝗶𝗻𝗴𝘀", callback_data="settingm"
                 )
             ],
             [
                 InlineKeyboardButton(
-                    text="📨Official Channel", url=f"{SUPPORT_CHANNEL}"
+                    text="📨𝗖𝗵𝗮𝗻𝗻𝗲𝗹", url=f"{SUPPORT_CHANNEL}"
                 ),
                 InlineKeyboardButton(
-                    text="📨Support Group", url=f"{SUPPORT_GROUP}"
+                    text="📨𝗦𝘂𝗽𝗽𝗼𝗿𝘁", url=f"{SUPPORT_GROUP}"
                 ),
             ],
         ]
@@ -87,12 +87,12 @@ def private_panel():
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="🗂 Helper Commands Menu", callback_data="shikhar"
+                    text="🗂 𝗛𝗲𝗹𝗽𝗲𝗿 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀 𝗠𝗲𝗻𝘂", callback_data="shikhar"
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    "➕ Add me to your Group",
+                    "➕ 𝗔𝗱𝗱 𝗺𝗲 𝘁𝗼 𝘆𝗼𝘂𝗿 𝗚𝗿𝗼𝘂𝗽",
                     url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                 )
             ],
@@ -102,18 +102,18 @@ def private_panel():
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="🗂 Helper Commands Menu", callback_data="shikhar"
+                    text="🗂 𝗛𝗲𝗹𝗽𝗲𝗿 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀 𝗠𝗲𝗻𝘂", callback_data="shikhar"
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    "➕ Add me to your Group",
+                    "➕ 𝗔𝗱𝗱 𝗺𝗲 𝘁𝗼 𝘆𝗼𝘂𝗿 𝗚𝗿𝗼𝘂𝗽",
                     url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                 )
             ],
             [
                 InlineKeyboardButton(
-                    text="📨Support Group", url=f"{SUPPORT_GROUP}"
+                    text="📨𝗦𝘂𝗽𝗽𝗼𝗿𝘁", url=f"{SUPPORT_GROUP}"
                 ),
             ],
         ]
@@ -122,18 +122,18 @@ def private_panel():
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="🗂 Helper Commands Menu", callback_data="shikhar"
+                    text="🗂 𝗛𝗲𝗹𝗽𝗲𝗿 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀 𝗠𝗲𝗻𝘂", callback_data="shikhar"
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    "➕ Add me to your Group",
+                    "➕ 𝗔𝗱𝗱 𝗺𝗲 𝘁𝗼 𝘆𝗼𝘂𝗿 𝗚𝗿𝗼𝘂𝗽",
                     url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                 )
             ],
             [
                 InlineKeyboardButton(
-                    text="📨Official Channel", url=f"{SUPPORT_CHANNEL}"
+                    text="📨𝗖𝗵𝗮𝗻𝗻𝗲𝗹", url=f"{SUPPORT_CHANNEL}"
                 ),
             ],
         ]
@@ -142,21 +142,21 @@ def private_panel():
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="🗂 Helper Commands Menu", callback_data="shikhar"
+                    text="🗂 𝗛𝗲𝗹𝗽𝗲𝗿 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀 𝗠𝗲𝗻𝘂", callback_data="shikhar"
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    "➕ Add me to your Group",
+                    "➕ 𝗔𝗱𝗱 𝗺𝗲 𝘁𝗼 𝘆𝗼𝘂𝗿 𝗚𝗿𝗼𝘂𝗽",
                     url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                 )
             ],
             [
                 InlineKeyboardButton(
-                    text="📨Official Channel", url=f"{SUPPORT_CHANNEL}"
+                    text="📨𝗖𝗵𝗮𝗻𝗻𝗲𝗹", url=f"{SUPPORT_CHANNEL}"
                 ),
                 InlineKeyboardButton(
-                    text="📨Support Group", url=f"{SUPPORT_GROUP}"
+                    text="📨𝗦𝘂𝗽𝗽𝗼𝗿𝘁", url=f"{SUPPORT_GROUP}"
                 ),
             ],
         ]
@@ -166,20 +166,20 @@ def private_panel():
 def setting_markup():
     buttons = [
         [
-            InlineKeyboardButton(text="🔈 Audio Quality", callback_data="AQ"),
-            InlineKeyboardButton(text="🎚 Audio Volume", callback_data="AV"),
+            InlineKeyboardButton(text="🔈 𝗔𝘂𝗱𝗶𝗼 𝗤𝘂𝗮𝗹𝗶𝘁𝘆", callback_data="AQ"),
+            InlineKeyboardButton(text="🎚 𝗔𝘂𝗱𝗶𝗼 𝗩𝗼𝗹𝘂𝗺𝗲", callback_data="AV"),
         ],
         [
             InlineKeyboardButton(
-                text="👥 Authorized Users", callback_data="AU"
+                text="👥 𝗔𝘂𝘁𝗵𝗼𝗿𝗶𝘇𝗲𝗱 𝗨𝘀𝗲𝗿𝘀 𝗟𝗶𝘀𝘁𝘀", callback_data="AU"
             ),
             InlineKeyboardButton(
-                text="💻 Dashboard", callback_data="Dashboard"
+                text="💻 𝗗𝗮𝘀𝗵𝗯𝗼𝗮𝗿𝗱", callback_data="Dashboard"
             ),
         ],
         [
-            InlineKeyboardButton(text="✖️ Close", callback_data="close"),
-            InlineKeyboardButton(text="🔙 Go Back", callback_data="okaybhai"),
+            InlineKeyboardButton(text="✖️ 𝗖𝗹𝗼𝘀𝗲", callback_data="close"),
+            InlineKeyboardButton(text="🔙 𝗚𝗼 𝗕𝗮𝗰𝗸", callback_data="okaybhai"),
         ],
     ]
     return f"🔧  **{MUSIC_BOT_NAME} Settings**", buttons
@@ -189,23 +189,23 @@ def volmarkup():
     buttons = [
         [
             InlineKeyboardButton(
-                text="🔄 Reset Audio Volume 🔄", callback_data="HV"
+                text="🔄 𝗥𝗲𝘀𝗲𝘁 𝗔𝘂𝗱𝗶𝗼 𝗩𝗼𝗹𝘂𝗺𝗲 🔄", callback_data="HV"
             )
         ],
         [
-            InlineKeyboardButton(text="🔈 Low Vol", callback_data="LV"),
-            InlineKeyboardButton(text="🔉 Medium Vol", callback_data="MV"),
+            InlineKeyboardButton(text="🔈 𝗟𝗼𝘄 𝗩𝗼𝗹", callback_data="LV"),
+            InlineKeyboardButton(text="🔉 𝗠𝗲𝗱𝗶𝘂𝗺 𝗩𝗼𝗹", callback_data="MV"),
         ],
         [
-            InlineKeyboardButton(text="🔊 High Vol", callback_data="HV"),
-            InlineKeyboardButton(text="🔈 Amplified Vol", callback_data="VAM"),
+            InlineKeyboardButton(text="🔊 𝗛𝗶𝗴𝗵 𝗩𝗼𝗹", callback_data="HV"),
+            InlineKeyboardButton(text="🔈 𝗔𝗺𝗽𝗹𝗶𝗳𝗶𝗲𝗱 𝗩𝗼𝗹", callback_data="VAM"),
         ],
         [
             InlineKeyboardButton(
-                text="🔽 Custom Volume 🔽", callback_data="Custommarkup"
+                text="🔽 𝗖𝘂𝘀𝘁𝗼𝗺 𝗩𝗼𝗹𝘂𝗺𝗲 🔽", callback_data="Custommarkup"
             )
         ],
-        [InlineKeyboardButton(text="🔙 Go back", callback_data="settingm")],
+        [InlineKeyboardButton(text="🔙 𝗚𝗼 𝗕𝗮𝗰𝗸", callback_data="settingm")],
     ]
     return f"🔧  **{MUSIC_BOT_NAME} Settings**", buttons
 
@@ -224,7 +224,7 @@ def custommarkup():
             InlineKeyboardButton(text="+50", callback_data="PFZ"),
             InlineKeyboardButton(text="-50", callback_data="MFZ"),
         ],
-        [InlineKeyboardButton(text="🔼Custom Volume 🔼", callback_data="AV")],
+        [InlineKeyboardButton(text="🔼𝗖𝘂𝘀𝘁𝗼𝗺 𝗩𝗼𝗹𝘂𝗺𝗲 🔼", callback_data="AV")],
     ]
     return f"🔧  **{MUSIC_BOT_NAME} Settings**", buttons
 
@@ -232,15 +232,15 @@ def custommarkup():
 def usermarkup():
     buttons = [
         [
-            InlineKeyboardButton(text="👥 Everyone", callback_data="EVE"),
-            InlineKeyboardButton(text="🙍 Admins", callback_data="AMS"),
+            InlineKeyboardButton(text="👥 𝗘𝘃𝗲𝗿𝘆𝗼𝗻𝗲", callback_data="EVE"),
+            InlineKeyboardButton(text="🙍 𝗔𝗱𝗺𝗶𝗻𝘀", callback_data="AMS"),
         ],
         [
             InlineKeyboardButton(
-                text="📋 Authorized Users Lists", callback_data="USERLIST"
+                text="📋 𝗔𝘂𝘁𝗵𝗼𝗿𝗶𝘇𝗲𝗱 𝗨𝘀𝗲𝗿𝘀 𝗟𝗶𝘀𝘁𝘀", callback_data="USERLIST"
             )
         ],
-        [InlineKeyboardButton(text="🔙 Go back", callback_data="settingm")],
+        [InlineKeyboardButton(text="🔙 𝗚𝗼 𝗕𝗮𝗰𝗸", callback_data="settingm")],
     ]
     return f"🔧  **{MUSIC_BOT_NAME} Settings**", buttons
 
@@ -248,13 +248,13 @@ def usermarkup():
 def dashmarkup():
     buttons = [
         [
-            InlineKeyboardButton(text="✔️ Uptime", callback_data="UPT"),
-            InlineKeyboardButton(text="💾 Ram", callback_data="RAT"),
+            InlineKeyboardButton(text="✔️ 𝗨𝗽𝘁𝗶𝗺𝗲", callback_data="UPT"),
+            InlineKeyboardButton(text="💾 𝗥𝗮𝗺", callback_data="RAT"),
         ],
         [
-            InlineKeyboardButton(text="💻 Cpu", callback_data="CPT"),
-            InlineKeyboardButton(text="💽 Disk", callback_data="DIT"),
+            InlineKeyboardButton(text="💻 𝗖𝗽𝘂", callback_data="CPT"),
+            InlineKeyboardButton(text="💽 𝗗𝗶𝘀𝗸", callback_data="DIT"),
         ],
-        [InlineKeyboardButton(text="🔙 Go back", callback_data="settingm")],
+        [InlineKeyboardButton(text="🔙 𝗚𝗼 𝗕𝗮𝗰𝗸", callback_data="settingm")],
     ]
     return f"🔧  **{MUSIC_BOT_NAME} Settings**", buttons
