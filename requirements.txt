@@ -20,3 +20,4 @@ rich
 yt-dlp==2021.11.10.1 
 pymongo[srv]
 TgCrypto
+python-arq
