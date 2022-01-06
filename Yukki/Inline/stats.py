@@ -1,6 +1,6 @@
 from pyrogram.types import (CallbackQuery, InlineKeyboardButton,
                             InlineKeyboardMarkup, InputMediaPhoto, Message)
-𝗔𝘀𝘀𝗶𝘀𝘁𝗮𝗻 𝘀𝘁𝗮𝘁𝘀
+
 stats1 = InlineKeyboardMarkup(
     [
         [
